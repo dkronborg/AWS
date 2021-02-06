@@ -12,7 +12,7 @@ sudo apt install nginx -y
 wget 127.0.0.1 -qO-
 
 #moitor nginx process
-top -p `pidof -s nginx`
+#top -p `pidof -s nginx`
 
 #look at access log
-tail -f /var/log/nginx/access.log 
+#tail -f /var/log/nginx/access.log 
